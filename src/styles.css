@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto Mono", monospace, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  width: 380px;
+  height: 700px;
+  background-color: #f8f7ff;
+}
+
+.phone {
+  width: 320px;
+  height: 640px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 45px 30px 20px 30px;
+  color: #676767;
+}
+
+.recipes__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.popular__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.popular__view-all {
+  color: #e97381;
+}
+
+.popular__categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular__category {
+  width: 125px;
+  height: 85px;
+  border-radius: 10px;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0.9;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    10px -10px 15px rgba(235, 235, 235, 0.9),
+    -10px 10px 20px rgba(235, 235, 235, 0.9);
+  margin-bottom: 25px;
+}
+
+.category1 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(140, 140, 140, 0.7)
+    ),
+    url("http://profiles.sulekhalive.com/mstore/24036103/albums/default/thumbnailfull/home-cook-1.jpg");
+  background-size: cover;
+}
+
+.category2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(140, 140, 140, 0.7)
+    ),
+    url("https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/exps99509_FM143298B03_14_8b_WEB.jpg");
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.category3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(140, 140, 140, 0.7)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_6VnZ-nl0vnuAFHueD7Oz7gPXUIRmmapjeI3XkJ6ha6_w7rvEhw");
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.category4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(140, 140, 140, 0.7)
+    ),
+    url("https://www.twopurplefigs.com/wp-content/uploads/2018/02/Rainbow-Fruit-Smoothie-Recipes-5.jpg");
+  background-size: cover;
+}
+
+.category__title {
+  opacity: 1;
+}
+
+.other__title {
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.other__category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 10px -10px 15px rgba(235, 235, 235, 0.9),
+    -10px 10px 20px rgba(235, 235, 235, 0.9);
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  font-size: 8px;
+}
+
+.other__category-info {
+  display: flex;
+  flex-direction: column;
+  color: #676767;
+}
+
+.other__category-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.fa-angle-right {
+  color: #ee7986;
+  font-size: 18px;
+}
+
+.nav {
+  background-color: white;
+  position: fixed;
+  top: 590px;
+  left: 40px;
+  border-radius: 5px 5px 25px 25px;
+}
+
+.nav .nav__lists {
+  width: 280px;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav .nav__lists a {
+  color: #909090;
+}
+
+.nav__list:nth-child(2) a i {
+  color: #ee7986;
+}
